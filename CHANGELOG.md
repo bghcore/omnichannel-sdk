@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+### Security
+
+- Updated Axios to `^1.18.1` and declared `form-data` 4.0.6 directly so consumers inherit the patched minimum.
+
+### Changed
+
+- Standardized local, pull-request, and release builds on Node.js 22.
+
 ### Added
 
 - Added `getUnreadMessageCount` SDK method to fetch unread message count for authenticated users (auth-only, pre-session badge use case)
