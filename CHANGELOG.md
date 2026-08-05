@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+### Security
+
+- Updated Axios to `^1.19.0`, which requires patched `form-data` and `follow-redirects` versions without adding unused direct dependencies.
+- Removed the stale dev-only Lodash override; the regenerated lockfile resolves the patched version through normal transitive constraints.
+
+### Changed
+
+- Standardized local, pull-request, and release builds on Node.js 22 and declared Node.js `>=22.12.0` as the supported runtime.
+- Axios now installs proxy support for its Node.js HTTP adapter; the browser bundle remains unchanged.
+
 ### Added
 
 - Added `getUnreadMessageCount` SDK method to fetch unread message count for authenticated users (auth-only, pre-session badge use case)
