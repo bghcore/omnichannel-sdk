@@ -6,7 +6,7 @@ All notable changes to this project will be documented in this file.
 
 ### Security
 
-- Updated Axios to `^1.18.1` and declared `form-data` 4.0.6 directly so consumers inherit the patched minimum.
+- Updated Axios to `^1.18.1` and declared `form-data` `4.0.6` directly so consumers inherit the patched minimum.
 
 ### Changed
 
